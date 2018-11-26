@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".OnboardingActivity"
+              android:padding="16dp">
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Permissions"
+            android:id="@+id/androidPermissionsButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="onAndroidPermissionsButton"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VPN Permission"
+            android:id="@+id/vpnPermissionButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="onVpnPermissionButton"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Install Certificate"
+            android:id="@+id/installCertificateButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="onInstallCertificateButton"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accessibility Permission"
+            android:id="@+id/accessibilityPermissionButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="onAccessibilityPermissionButton"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage Stats Permission"
+            android:id="@+id/usageStatsPermissionButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="onUsageStatsPermissionButton"/>
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Monitoring"
+            android:id="@+id/startMonitoringButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="onStartMonitoringButton"/>
+
+</LinearLayout>
